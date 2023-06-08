@@ -7,5 +7,5 @@ report = Blueprint("report", __name__, url_prefix="/reports", static_folder="../
 def report_list():
     return render_template(
         "base.html",
-        reports=[1, 231, 4]
+        reports=[1,231,4]
     )
