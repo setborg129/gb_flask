@@ -1,2 +1,2 @@
-# gb_flask
-GeekBrains Flask
+# Flask
+GeekBrains Flask course's project 

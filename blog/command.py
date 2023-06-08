@@ -1,10 +1,5 @@
-from blog.app import app, db
-
-if __name__ == "__main__":
-    app.run(
-        host="0.0.0.0",
-        debug=True,
-    )
+from blog.app import db
+from wsgi import app
 
 @app.cli.command("init-db")
 def init_db():
@@ -25,7 +20,7 @@ def create_users():
     """
     from blog.models import User
     admin = User(username="admin", is_staff=True)
-    james = User(username="maks")
+    james = User(username="james")
     db.session.add(admin)
     db.session.add(james)
     db.session.commit()
