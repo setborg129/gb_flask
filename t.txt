@@ -36,4 +36,13 @@ pyembed-markdown==1.1.0
 Pygments==2.14.0
 pymdown-extensions==9.10a3
 PyYAML==5.3.1
+requests==2.28.2
+simplejson==3.18.3
+soupsieve==2.4
+SQLAlchemy==1.4.46
+typing_extensions==4.5.0
+urllib3==1.26.14
 Werkzeug==2.0.3
+WTForms==3.0.1
+zipp==3.13.0
+gunicorn
