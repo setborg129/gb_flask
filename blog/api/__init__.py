@@ -1,5 +1,7 @@
 from flask_combo_jsonapi import Api
 from combojsonapi.spec import ApiSpecPlugin
+
+from blog.api.tag import TagList, TagDetail
 from blog.api.user import UserList, UserDetail
 from blog.api.author import AuthorList, AuthorDetail
 from blog.api.article import ArticleList, ArticleDetail
